@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: beige; /* 背景色を付けたい場合のみ */
+  background-color: #ece7ed; /* 背景色を付けたい場合のみ */
   margin: 0;
   padding: 0;
   /* ページ全体の幅は div#container に設定する */
@@ -27,7 +27,7 @@ header {
   /* 幅（width）は既定値１００％なので基本はそのままでOK */
 
   /* 背景画像の設定 */
-  background-image: url('fig/header-img.png');
+  background-image: url('fig/header.png');
   background-repeat: no-repeat;
   background-size: cover; /* contain（切り替えて確認する） */
   background-position: center; /* coverの場合、どこを切り取るか */
@@ -79,7 +79,7 @@ nav#nav_top {
   /* ヘッダー内の下に配置しないときな特に何もしなくてよい */
 
   /* 装飾 */
-  background-color: saddlebrown;
+  background-color: #624b61;
 }
 
 nav#nav_top a {
@@ -126,7 +126,7 @@ section:nth-of-type(even) {
 /* セクションの見出し */
 section h1 {
   /* 装飾 */
-  background-color: wheat;
+  background-color: #d583a2;
   padding: 0.5em 1em;
   border-radius: 1.25em; /* 角丸 */
 }
@@ -136,7 +136,7 @@ section h2 {
   /* 装飾 */
   font-size: 1.2em;
   text-align: left;
-  border-left: solid 1.2em saddlebrown;
+  border-left: solid 1.2em #ead5e7;
   padding-left: 0.5em;
 }
 
@@ -231,5 +231,48 @@ section.type5 .sec-container {
 footer {
   margin-top: 1.5em;
   padding: 1em 1em 3em; /* heightで調整してもよい*/
-  background-color: lightgrey;
+  background-color: #ead5e7
 }
+
+/* ボタン */
+button {
+background: transparent;
+border: 1px solid #d583a2;
+color: #d583a2;
+cursor: pointer;
+font-size: 14px;
+font-weight: 400;
+padding: 12px 16px;
+transition: all 0.3s ease;
+position: relative;
+overflow: hidden;
+
+}
+button::before {
+content: '';
+position: absolute;
+top: 0;
+left: -100%;
+width: 100%;
+height: 100%;
+background: #d583a2;
+transition: left 0.3s ease;
+z-index: -1;
+}
+button:hover {
+color: white;
+transform: translateY(-1px);
+position: relative;
+z-index: 1;
+}
+button::before {
+left: 0;
+}
+/* ↓ボタンを中央にしたい */
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;               
+}
+
+/* ここまでボタン */

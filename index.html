@@ -3,64 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>タイトル</title>
+    <title>SpacialMeet</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="container">
+      <nav id="nav_top">
+        <a href="#sec1">SpacialMeetとは？</a>
+        <a href="#sec2">主な機能</a>
+        <a href="#sec3">期待できること</a>
+        <a href="#sec4">プロトタイプ</a>
+      </nav>
       <header>
-        <h1>SpatialMeet</h1>
-        <p>オンライン会議に<strong>「同じ空間にいる」</strong>感覚を</p>
-        <p>オンラインのモヤモヤを卒業しよう！</p>
+        <h1>オンライン会議に、まるで<br />「同じ部屋」にいるような一体感を。</h1>
+        <!-- <p>説明とか</p>
+        <p>説明とか</p>
         <nav id="nav_inHeader">
-          <a href="#sec1">初めに</a>
-          <a href="#sec2">ターゲット</a>
-          <a href="#sec3">機能</a>
-        </nav>
+          <a href="#sec2">(見出し2)</a>
+          <a href="#sec3">(見出し3)</a>
+          <a href="#sec4">(見出し4)</a>
+          <a href="#sec5">(見出し5)</a>
+        </nav> -->
       </header>
       <main>
         <!-- 見出し1 -->
         <section id="sec1" class="type1">
-          <h1>初めに</h1>
+          <h1>SpacialMeetとは？</h1>
           <div class="sec-container">
-            <h2>小見出し1</h2>
             <figure>
-              <img src="fig/img.png" />
+              <img src="fig/gamen.png" />
             </figure>
             <p>
-              内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容
-              内容 内容 内容 内容 内容 内容
+              オンライン会議に『そこにいる』、まさに『同じ空間にいる』感覚をもたらし、チームのアイデアと絆を、ぐっと高めるWeb会議ツール
             </p>
-            <h2>小見出し1</h2>
-            <p>
-              内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容
-              内容 内容 内容 内容 内容 内容
-            </p>
+            <h2>こんな経験はありませんか？</h2>
+            <figure>
+              <img src="fig/kadai.png" />
+            </figure>
+            <p>誰が話しているかわかりずらい</p>
+            <p>発言量に差が出てしまう</p>
+            <p>心理的距離がある</p>
+            <p>このようなウェブ会議でのモヤモヤを解決するのがSpacialMeet</p>
           </div>
         </section>
 
         <!-- 見出し2 -->
         <section id="sec2" class="type2">
-          <h1>ターゲット</h1>
+          <h1>主な機能</h1>
+          <p>主な機能について紹介します。</p>
           <div class="sec-container">
-            <h2>小見出し1</h2>
+            <h2>ホワイトボード</h2>
             <div class="flex-container">
               <figure>
-                <img src="fig/img.png" />
+                <img src="fig/whiteboard_1.png" />
+                <img src="fig/whiteboard_2.png" />
               </figure>
               <p>
-                内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容
-                内容 内容 内容 内容 内容 内容
+                ・会議テーブルの正面にホワイトボードを設置
+                <br />
+                <br />・ホワイトボードをクリックすると拡大され全画面表示される
+                <br />
+                <br />・画面クリックかEscキーを押すことで全画面を解除できる
               </p>
             </div>
-            <h2>小見出し2</h2>
+            <h2>発言機能</h2>
             <div class="flex-container">
               <figure>
-                <img src="fig/img.png" />
+                <img src="fig/hatugen.png" />
               </figure>
               <p>
-                内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容 内容
-                内容 内容 内容 内容 内容 内容
+                ・自分からの距離、立場に応じて音量が変化する
+                <br />
+                <br />・写真の場合、自分に近いディレクターの声が大きく、対面にいるクリエイターの声が小さく聞こえる
+                <br />
+                <br />・話している人はキャラクターの周りが光り、画面右上で同時に文字起こしを行う
+              </p>
+            </div>
+            <h2>ひそひそ話機能</h2>
+            <div class="flex-container">
+              <figure>
+                <img src="fig/hisohiso.png" />
+              </figure>
+              <p>
+                ・会議中に他のキャラクターをクリックするとチャットが開き、文字・音声で会話が可能
+                <br />
+                <br />・個別に話している事実や内容は他の人には伝わらない
+                <br />
+                <br />・チャットはAIが自動で要約する
               </p>
             </div>
           </div>
@@ -68,29 +97,74 @@
 
         <!-- 見出し3 -->
         <section id="sec3" class="type3">
-          <h1>機能</h1>
+          <h1>期待できること</h1>
           <div class="flex-container">
-            <div class="content">
-              <h2>小見出し1</h2>
+            <p>
+              音声が重なったり、誰に話しているのかが分からず、会議がうまく進まなかった...
+              <br />
+              <br />→会議が円滑に進むことにより一体感が生まれ、より高いクオリティのものを作り出せる!!
+              <br />
+              <br /><u>チームでの活動が多い人に効果的</u>
+            </p>
+            <!-- <div class="content">
+               <h2>小見出し1</h2>
               <figure>
                 <img src="fig/img.png" />
-              </figure>
+              </figure> 
               <p>
                 50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。50万円です。
+              </p> -->
+          </div>
+          <h1>プロトタイプ</h1>
+          <section id="sec4" class="type4">
+            <div class="sec-container">
+              <p>https://g.co/gemini/share/9a41dc5940bd</p>
+              <p>
+                実際にSpatialMeetを触ってイメージしましょう！
+                <br />ここでは広告代理店で働くあなたがオンライン会議でSpatialMeetを使用しているという設定です。
               </p>
             </div>
-            <div class="content">
-              <h2>小見出し2</h2>
+          </section>
+          <div class="button-container">
+            <a href="#container"><button>TOPへ</button></a>
+          </div>
+        </section>
+
+        <!-- 見出し4
+        <section id="sec4" class="type4">
+          <h1>How to</h1>
+          <div class="sec-container">
+            <div class="flex-container">
               <figure>
                 <img src="fig/img.png" />
               </figure>
-              <p>
-                500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。500万円です。
-              </p>
+              <p>ご結婚ですか？ ご婚約ですか？</p>
+            </div>
+            <div class="flex-container">
+              <figure>
+                <img src="fig/img.png" />
+              </figure>
+              <p>え？ 結婚しないんですか？</p>
+            </div>
+            <div class="flex-container">
+              <figure>
+                <img src="fig/img.png" />
+              </figure>
+              <p>え？ 誕プレでもないんですか？</p>
+            </div>
+            <div class="flex-container">
+              <figure>
+                <img src="fig/img.png" />
+              </figure>
+              <p>え？ ◯活ですか？</p>
             </div>
           </div>
-        </section>
-      <footer>2025年度　SpatialMeet-食べ物大好きチーム</footer>
+        </section> -->
+
+        <!-- 見出し5 -->
+      </main>
+
+      <footer>©食べ物大好きチーム</footer>
     </div>
     <script src="script.js"></script>
   </body>
