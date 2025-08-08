@@ -283,3 +283,20 @@ button::before {
 }
 
 /* ここまでボタン */
+
+.sec-container {
+  /* プロトタイプ中央ぞろえ*/
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#nav_top a {
+  color: #333; /* 通常時の文字色 */
+  text-decoration: none; /* 下線なし（必要なら） */
+  transition: color 0.3s ease; /* なめらかに色変化 */
+}
+
+#nav_top a:hover {
+  color: #fd79a8; /* 触れたときの文字色 */
+}
