@@ -239,6 +239,7 @@ footer {
   margin-top: 1.5em;
   padding: 1em 1em 3em; /* heightで調整してもよい*/
   background-color: #ead5e7;
+  text-align: center;
 }
 
 /* ボタン */
